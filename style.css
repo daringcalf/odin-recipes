@@ -1,0 +1,13 @@
+* {
+  background-color: hsl(0, 0%, 20%);
+  color: hsl(0, 0%, 100%);
+}
+
+body {
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+h1 {
+  text-align: center;
+}
