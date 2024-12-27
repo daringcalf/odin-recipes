@@ -1,6 +1,7 @@
 * {
   background-color: hsl(0, 0%, 20%);
   color: hsl(0, 0%, 100%);
+  font-family: 'Arial', sans-serif;
 }
 
 body {
@@ -10,4 +11,29 @@ body {
 
 h1 {
   text-align: center;
+}
+
+#recipe-list {
+  border-top: 2px dotted hsl(145, 100%, 50%);
+  border-bottom: 2px dotted hsl(145, 100%, 50%);
+}
+
+#recipe-list li {
+  display: inline;
+}
+
+#recipe-list a:hover {
+  background-color: hsl(131, 77%, 20%);
+  color: hsl(0, 0%, 100%);
+}
+
+#recipe-list a {
+  display: inline-block;
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(131, 77%, 20%);
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 5px 10px;
+  border-radius: 5px;
+  font-weight: 600;
 }
